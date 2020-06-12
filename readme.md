@@ -39,7 +39,7 @@
 ## Features
 
 - Basic create, read, update, delete and batch delete
-
+- Pagination
 
 
 
