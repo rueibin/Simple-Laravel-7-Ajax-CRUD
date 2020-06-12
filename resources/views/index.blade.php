@@ -17,7 +17,7 @@
     <!-- header -->
     <div class="row">
         <div class="col-md-12">
-            <h1>Simple Larvel 7 CRUD</h1>
+            <h1>Simple Larvel 7 Ajax CRUD</h1>
         </div>
     </div>
 
@@ -452,6 +452,7 @@
 
     function rest_form(element){
         $(element)[0].reset();
+        $(element).find(".text-danger").remove();
     }
 </script>
 
